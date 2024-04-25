@@ -1,1 +1,44 @@
 
+#hot{
+    background-image: url('./img/beach.jpeg') ;
+}
+
+#cold{
+    background-image: url('./img/mountain.jpeg')
+}
+
+.clima{
+    background-color: rgb(219, 249, 239);
+    width: 400px;
+    height: 250px;
+    margin: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.temp{
+    font-size: 80px;
+    margin: 5px;
+    color: white;
+    text-shadow: -2px 2px 6px black;
+;
+}
+.temp-div{
+    align-self: flex-end;
+}
+
+.text-div{
+    background-color: rgba(255, 255, 255, 0.742);
+    margin: 30px;
+}
+
+.city{
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 10px 20px;
+}
+
+.message{
+    margin-left: 10px;
+}
